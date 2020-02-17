@@ -21,4 +21,7 @@ Git -> https://git-scm.com/download/win
     git config --global user.name <github userID>
     git clone <URL from github link copied earlier>
 
+--> First Commit
+    
+
 That should be all that's required.  any newly created file should be available on github after stage/commit/push.
