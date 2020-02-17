@@ -7,19 +7,19 @@ GitHub Account -> https://github.com/
 Git -> https://git-scm.com/download/win
 
 # Steps #
---> Create a directory on the local file system.
+--> Create a directory on the local file system::
     mkdir myrepo
 
---> Create a repo on Github.
+--> Create a repo on Github::
     username/myrepo
 
---> Select Clone "Clone or download" on Github, copy the link
+--> Select Clone "Clone or download" on Github, copy the link::
     https://github.com/username/myrepo.git
 
 --> In Visual Studio Code, sect File -> Add Folder to Workspace -> Select the newly created directory
 
 --> Select Terminal Window:
----> Inicialice: Incialice the local respository
+---> Inicialice: Incialice the local respository::
 git init
 
 --> Go to Source Control (left menu)
@@ -29,7 +29,7 @@ git init
 ---> Commit: Type a message and press CNTL+ENTER (commit)
 
 --> In terminal
---->Main Branch: Create main branch where to push
+--->Main Branch: Create main branch where to push::
 git remote add origin https://github.com/username/myrepo.git
 
 --> Go to Source Contrl (lef menu)
