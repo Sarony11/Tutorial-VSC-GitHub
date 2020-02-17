@@ -20,8 +20,13 @@ Git -> https://git-scm.com/download/win
 --> Select Terminal Window and Type:
     git config --global user.name <github userID>
     git clone <URL from github link copied earlier>
+    git init
 
---> First Commit
-    
+--> Go to Source Control (left menu)
+--> Refresh changes
+--> Type a message and press CNTL+ENTER (commit)
+--> Click on the 3 dots and Push
+--> Autenticate
+
 
 That should be all that's required.  any newly created file should be available on github after stage/commit/push.
