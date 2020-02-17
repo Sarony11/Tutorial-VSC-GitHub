@@ -9,24 +9,22 @@ Git -> https://git-scm.com/download/win
 # Steps #
 --> Create a directory on the local file system.
     mkdir myrepo
-
 --> Create a repo on Github.
     username/myrepo
-
 --> Select Clone "Clone or download" on Github, copy the link
     https://github.com/username/myrepo.git
-
 --> In Visual Studio Code, sect File -> Add Folder to Workspace -> Select the newly created directory
---> Select Terminal Window and Type:
-    git config --global user.name <github userID>
-    git clone <URL from github link copied earlier>
-    git init
-
+--> Select Terminal Window:
+---> Inicialice: Incialice the local respository
+git init
 --> Go to Source Control (left menu)
---> Refresh changes
---> Type a message and press CNTL+ENTER (commit)
---> Click on the 3 dots and Push
---> Autenticate
+---> Refresh: Refresh changes
+---> Commit: Type a message and press CNTL+ENTER (commit)
+--> In terminal
+--->Main Branch: Create main branch where to push
+git remote add origin https://github.com/username/myrepo.git
+--> Go to Source Contrl (lef menu)
+---> Push: Click on the 3 dots and Push
+---> Autenticate: If you are not already autenticate, do it.
 
-
-That should be all that's required.  any newly created file should be available on github after stage/commit/push.
+# NOTE: You have to run Visual Code Studio as administrator user. #
