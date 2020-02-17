@@ -8,7 +8,7 @@ Git -> https://git-scm.com/download/win
 
 # Steps #
 --> Create a directory on the local file system.
-    mkdir myrepo
+    # mkdir myrepo
 
 --> Create a repo on Github.
     username/myrepo
