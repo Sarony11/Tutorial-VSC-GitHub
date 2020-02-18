@@ -36,4 +36,7 @@ With this tutorial we intent to explain and document how to configure Visual Stu
 - **Push**: Click on the 3 dots and Push
 - **Autenticate**: If you are not already autenticate, do it.
 
-# NOTE: You have to run Visual Code Studio as administrator user. #
+## NOTE: You have to run Visual Code Studio as administrator user. ##
+
+# Documentation
+- Formating Documentation --> https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax#lists
