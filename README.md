@@ -16,7 +16,8 @@ With this tutorial we intent to explain and document how to configure Visual Stu
 ## Select Clone "Clone or download" on Github, copy the link ##
 > https://github.com/username/myrepo.git
 
-## In Visual Studio Code, sect File -> Add Folder to Workspace -> Select the newly created directory ##
+## In Visual Studio Code ##
+- Select File -> Add Folder to Workspace -> Select the newly created directory ##
 
 ## Select Terminal Window ##
 - Inicialice: Incialice the local respository
