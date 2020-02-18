@@ -20,20 +20,20 @@ With this tutorial we intent to explain and document how to configure Visual Stu
 - Select File -> Add Folder to Workspace -> Select the newly created directory ##
 
 ## Select Terminal Window ##
-- Inicialice: Incialice the local respository
+- **Inicialice**: Incialice the local respository
 > git init
 
 ## Go to Source Control (left menu) ##
 
-- Refresh: Refresh changes
-- Commit: Type a message and press CNTL+ENTER (commit)
+- **Refresh**: Refresh changes
+- **Commit**: Type a message and press CNTL+ENTER (commit)
 
 ## In terminal ##
-- Main Branch: Create main branch where to push::
+- **Main Branch**: Create main branch where to push::
 > git remote add origin https://github.com/username/myrepo.git
 
 ## Go to Source Contrl (lef menu) ##
-- Push: Click on the 3 dots and Push
-- Autenticate: If you are not already autenticate, do it.
+- **Push**: Click on the 3 dots and Push
+- **Autenticate**: If you are not already autenticate, do it.
 
 # NOTE: You have to run Visual Code Studio as administrator user. #
