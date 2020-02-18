@@ -2,41 +2,37 @@
 With this tutorial we intent to explain and document how to configure Visual Studio Code with GitHub
 
 # Requirements #
-Visual Studio Code -> https://code.visualstudio.com/docs/?dv=win
-
-GitHub Account -> https://github.com/
-
-Git -> https://git-scm.com/download/win
+- Visual Studio Code -> https://code.visualstudio.com/docs/?dv=win
+- GitHub Account -> https://github.com/
+- Git -> https://git-scm.com/download/win
 
 # Steps #
---> Create a directory on the local file system::
+## Create a directory on the local file system ##
 > mkdir myrepo
 
---> Create a repo on Github::
+## Create a repo on Github ##
 > username/myrepo
 
---> Select Clone "Clone or download" on Github, copy the link::
+## Select Clone "Clone or download" on Github, copy the link ##
 > https://github.com/username/myrepo.git
 
---> In Visual Studio Code, sect File -> Add Folder to Workspace -> Select the newly created directory
+## In Visual Studio Code, sect File -> Add Folder to Workspace -> Select the newly created directory ##
 
---> Select Terminal Window:
----> Inicialice: Incialice the local respository::
+## Select Terminal Window ##
+- Inicialice: Incialice the local respository
 > git init
 
---> Go to Source Control (left menu)
+## Go to Source Control (left menu) ##
 
----> Refresh: Refresh changes
+- Refresh: Refresh changes
+- Commit: Type a message and press CNTL+ENTER (commit)
 
----> Commit: Type a message and press CNTL+ENTER (commit)
-
---> In terminal
---->Main Branch: Create main branch where to push::
+## In terminal ##
+- Main Branch: Create main branch where to push::
 > git remote add origin https://github.com/username/myrepo.git
 
---> Go to Source Contrl (lef menu)
----> Push: Click on the 3 dots and Push
-
----> Autenticate: If you are not already autenticate, do it.
+## Go to Source Contrl (lef menu) ##
+- Push: Click on the 3 dots and Push
+- Autenticate: If you are not already autenticate, do it.
 
 # NOTE: You have to run Visual Code Studio as administrator user. #
