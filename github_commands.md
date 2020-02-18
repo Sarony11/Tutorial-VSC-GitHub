@@ -1,7 +1,7 @@
 # GitHub Commands #
 ## git config ##
 **Utility** : To set your user name and email in the main configuration file.
-**How to** : 
+**How to** : To check the github user, use git config --global user.name. To set up username, git config --global username <github userID or github eMail> 
 
 ## git init ##
 **Utility** : To initialise a git repository for a new or existing project.
